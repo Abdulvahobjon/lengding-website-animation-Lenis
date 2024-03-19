@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation Website</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="main">
+        <section class="section">
+          <div class="section__wrap">
+            <div class="section__item">
+              <div class="section__img">
+                <img src="./img/1.jpg" alt="" />
+              </div>
+              <div class="section__txt">
+                <span class="section__span">work 1</span>
+                <h2 class="section__title">
+                  Salom
+                  <div class="stroke">Dunyo</div>
+                </h2>
+                <img src="./img/2.jpg" class="star" alt="" />
+              </div>
+            </div>
+
+            <div class="section__item">
+              <div class="section__txt">
+                <span class="section__span">work 1</span>
+                <h2 class="section__title">
+                  Salom
+                  <div class="stroke">Dunyo</div>
+                </h2>
+                <img src="./img/2.jpg" class="star" alt="" />
+              </div>
+              <div class="section__img">
+                <img src="./img/1.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="section__item">
+              <div class="section__img">
+                <img src="./img/1.jpg" alt="" />
+              </div>
+              <div class="section__txt">
+                <span class="section__span">work 1</span>
+                <h2 class="section__title">
+                  Salom
+                  <div class="stroke">Dunyo</div>
+                </h2>
+                <img src="./img/2.jpg" class="star" alt="" />
+              </div>
+            </div>
+
+            <div class="section__item">
+              <div class="section__txt">
+                <span class="section__span">work 1</span>
+                <h2 class="section__title">
+                  Salom
+                  <div class="stroke">Dunyo</div>
+                </h2>
+                <img src="./img/2.jpg" class="star" alt="" />
+              </div>
+              <div class="section__img">
+                <img src="./img/1.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-text">
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+              sed nam culpa consectetur, asperiores blanditiis commodi mollitia
+              minus beatae. Saepe tenetur, fugiat similique ad reprehenderit
+              voluptate adipisci sunt fugit voluptatibus inventore, deserunt
+              voluptatem esse ex atque sint dolor nemo totam quam dolore at
+              recusandae alias perspiciatis consequuntur commodi? Cumque veniam
+              maxime quibusdam reprehenderit, ipsa hic tempora numquam ipsum
+              inventore iste ut libero harum dignissimos tempore, rem facere
+              mollitia sapiente asperiores quidem accusantium nisi. Obcaecati
+              sed voluptatibus rerum, natus iste eum dignissimos non, placeat
+              tenetur suscipit at officiis, maiores accusamus magnam dolor id
+              possimus pariatur et aperiam numquam ipsum. Assumenda alias rerum
+              non tempore, quibusdam nemo obcaecati nihil, quaerat porro, quidem
+              in autem quae commodi sit! Dignissimos repellat vitae ratione,
+              voluptas similique voluptate excepturi.
+            </p>
+          </div>
+        </section>
+
+        <section class="section-text">
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+              sed nam culpa consectetur, asperiores blanditiis commodi mollitia
+              minus beatae. Saepe tenetur, fugiat similique ad reprehenderit
+              voluptate adipisci sunt fugit voluptatibus inventore, deserunt
+              voluptatem esse ex atque sint dolor nemo totam quam dolore at
+              recusandae alias perspiciatis consequuntur commodi? Cumque veniam
+              maxime quibusdam reprehenderit, ipsa hic tempora numquam ipsum
+              inventore iste ut libero harum dignissimos tempore, rem facere
+              mollitia sapiente asperiores quidem accusantium nisi. Obcaecati
+              sed voluptatibus rerum, natus iste eum dignissimos non, placeat
+              tenetur suscipit at officiis, maiores accusamus magnam dolor id
+              possimus pariatur et aperiam numquam ipsum. Assumenda alias rerum
+              non tempore, quibusdam nemo obcaecati nihil, quaerat porro, quidem
+              in autem quae commodi sit! Dignissimos repellat vitae ratione,
+              voluptas similique voluptate excepturi.
+            </p>
+          </div>
+        </section>
+
+        <section class="section-text">
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+              sed nam culpa consectetur, asperiores blanditiis commodi mollitia
+              minus beatae. Saepe tenetur, fugiat similique ad reprehenderit
+              voluptate adipisci sunt fugit voluptatibus inventore, deserunt
+              voluptatem esse ex atque sint dolor nemo totam quam dolore at
+              recusandae alias perspiciatis consequuntur commodi? Cumque veniam
+              maxime quibusdam reprehenderit, ipsa hic tempora numquam ipsum
+              inventore iste ut libero harum dignissimos tempore, rem facere
+              mollitia sapiente asperiores quidem accusantium nisi. Obcaecati
+              sed voluptatibus rerum, natus iste eum dignissimos non, placeat
+              tenetur suscipit at officiis, maiores accusamus magnam dolor id
+              possimus pariatur et aperiam numquam ipsum. Assumenda alias rerum
+              non tempore, quibusdam nemo obcaecati nihil, quaerat porro, quidem
+              in autem quae commodi sit! Dignissimos repellat vitae ratione,
+              voluptas similique voluptate excepturi.
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@0.2.28/bundled/lenis.js"></script>
+    <script>
+      let lenis = new Lenis();
+
+      function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+      }
+
+      requestAnimationFrame(raf);
+    </script>
+  </body>
+</html>
